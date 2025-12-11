@@ -19,7 +19,7 @@ export default function Home() {
 
         <section className="mt-10">
           <h1 className="text-h1 text-[rgba(255,255,255,0.96)]">AI-powered text tools. Simple. Fast. Free.</h1>
-          <p className="mt-3 max-w-[560px] text-body text-text-secondary">Five focused tools that each do one thing perfectly. No sign-ups, no friction — just paste your text and get results.</p>
+          <p className="mt-3 max-w-[560px] text-body text-text-secondary">Five focused tools that each do one thing perfectly. No sign-ups, no friction. Just paste your text and get results.</p>
         </section>
 
         <section className="mt-10">
