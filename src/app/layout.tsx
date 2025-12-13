@@ -44,10 +44,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${crimsonPro.variable} antialiased`}>
-        {children}
-        <Analytics />
-      </body>
+      <body className={`${inter.variable} ${crimsonPro.variable} antialiased min-h-screen`}>
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SumKit",
+        "url": "https://sumkit.app",
+        "description": "Five focused AI-powered text tools for summarization, extraction, and compression. Free, no signup required.",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }).replace(/</g, '\\u003c')
+    }}
+  />
+  {children}
+  <Analytics />
+</body>
     </html>
   );
 }
