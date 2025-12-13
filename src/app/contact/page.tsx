@@ -57,7 +57,7 @@ export default function Contact() {
       <div className="mx-auto max-w-content">
         {/* Header */}
         <header className="flex h-16 items-center justify-between">
-          <a href="/" className="text-base font-semibold text-accent">SumKit</a>
+          <a href="/" className="font-[family-name:var(--font-crimson)] text-base font-semibold text-accent">SumKit</a>
           <a href="/" className="flex h-7 items-center rounded-pill border border-[rgba(255,255,255,0.10)] bg-[rgba(255,255,255,0.04)] px-3 transition-colors hover:border-[rgba(255,255,255,0.20)] hover:bg-[rgba(255,255,255,0.06)]">
             <span className="text-xs text-text-secondary">← Back to Suite</span>
           </a>
