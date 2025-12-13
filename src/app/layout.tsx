@@ -1,6 +1,18 @@
 import type { Metadata } from "next";
+import { Inter, Crimson_Pro } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
+
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const crimsonPro = Crimson_Pro({ 
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-crimson",
+});
 
 export const metadata: Metadata = {
   title: "SumKit – Free AI Text Tools",
@@ -32,9 +44,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${inter.variable} ${crimsonPro.variable} antialiased`}>
         {children}
-		<Analytics />
+        <Analytics />
       </body>
     </html>
   );
