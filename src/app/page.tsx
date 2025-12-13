@@ -18,7 +18,7 @@ export default function Home() {
         </header>
 
         <section className="mt-10 text-center">
-          <h1 className="font-[family-name:var(--font-crimson)] text-h1 text-[rgba(255,255,255,0.96)]">
+          <h1 className="text-h1 text-[rgba(255,255,255,0.96)]">
             AI-powered text tools. Simple. Fast. Free.
           </h1>
           <p className="mt-3 mx-auto max-w-[560px] text-body text-text-secondary">
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="mt-4 flex flex-wrap justify-center gap-4">
             {tools.map((tool, index) => (
               <a key={index} href={tool.url} target="_blank" rel="noopener noreferrer" className="glass-panel rounded-glass p-6 transition-colors hover:bg-[rgba(255,255,255,0.08)] w-full md:w-[calc(50%-8px)] lg:w-[calc(33.333%-11px)]">
-                <h3 className="font-[family-name:var(--font-crimson)] text-lg font-semibold text-accent">{tool.name}</h3>
+                <h3 className="font-[family-name:var(--font-crimson)] text-xl font-semibold text-accent">{tool.name}</h3>
                 <p className="mt-2 text-sm text-text-secondary">{tool.tagline}</p>
                 <div className="mt-4 flex items-center text-xs text-text-muted"><span>Try it free →</span></div>
               </a>
