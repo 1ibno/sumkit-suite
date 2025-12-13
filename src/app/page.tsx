@@ -13,7 +13,7 @@ export default function Home() {
     <div className="min-h-screen bg-background px-4 py-6 md:px-20">
       <div className="mx-auto max-w-content">
         <header className="flex h-16 items-center justify-between">
-          <div className="font-[family-name:var(--font-crimson)] text-base font-semibold text-accent">SumKit</div>
+          <div className="font-[family-name:var(--font-crimson)] text-xl font-semibold text-accent">SumKit</div>
           <a href="/contact" className="flex h-7 items-center rounded-pill border border-[rgba(255,255,255,0.10)] bg-[rgba(255,255,255,0.04)] px-3 transition-colors hover:border-[rgba(255,255,255,0.20)] hover:bg-[rgba(255,255,255,0.06)]"><span className="text-xs text-text-secondary">Contact</span></a>
         </header>
 
