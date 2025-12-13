@@ -64,6 +64,73 @@ export default function RootLayout({
       }).replace(/</g, '\\u003c')
     }}
   />
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is SumKit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SumKit is a free suite of five AI-powered text summarization tools: TenWordSum, SentenceSum, PointSum, InstructionSum, and TightSum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are all SumKit tools free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all five tools in the SumKit suite are completely free with no signup or subscription required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which SumKit tool should I use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use TenWordSum for ultra-short summaries, SentenceSum for one-sentence overviews, PointSum for bullet-point insights, InstructionSum for step-by-step instructions, or TightSum for 15-25 word compression."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes SumKit different from other summarization tools?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SumKit offers five specialized tools for different summarization needs, all free, with no signup, and guaranteed privacy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What AI technology powers SumKit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All SumKit tools are powered by Claude AI from Anthropic, ensuring high-quality, accurate summaries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my data private when using SumKit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All SumKit tools process text via Claude AI and never store your input. Your data remains completely private across all tools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to create an account?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No account needed for any SumKit tool. Simply visit any tool and start using it immediately."
+          }
+        }
+      ]
+    }).replace(/</g, '\\u003c')
+  }}
+/>
   {children}
   <Analytics />
 </body>
