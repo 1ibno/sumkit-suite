@@ -24,6 +24,11 @@ export default function Home() {
           <p className="mt-3 mx-auto max-w-[560px] text-body text-text-secondary">
           Five focused tools that each do one thing perfectly. No sign-ups, no friction. Just paste your text and get results.
         </p>
+
+        {/* Privacy */}
+        <p className="mt-4 text-sm text-text-secondary">
+          🔒 All tools process privately using Claude AI. Your text is never stored.
+        </p>  
           
         </section>
 
