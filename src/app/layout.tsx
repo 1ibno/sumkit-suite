@@ -39,7 +39,7 @@ twitter: {
   title: "SumKit - AI Text Summarization Tools",
   description: "Five focused AI-powered text tools for summarization, extraction, and compression. Free, no signup required.",
   images: ["/og-image.png"]
-}
+},
   robots: {
     index: true,
     follow: true,
