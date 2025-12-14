@@ -20,17 +20,26 @@ export const metadata: Metadata = {
   keywords: ["AI", "text tools", "summarize", "summarizer", "free tools", "SumKit"],
   authors: [{ name: "SumKit" }],
   openGraph: {
-    title: "SumKit – Free AI Text Tools",
-    description: "Five focused AI-powered text tools. Summarize, extract, compress — no sign-ups, no friction.",
-    url: "https://sumkit.app",
-    siteName: "SumKit",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "SumKit – Free AI Text Tools",
-    description: "Five focused AI-powered text tools. Summarize, extract, compress — no sign-ups, no friction.",
-  },
+  title: "SumKit - AI Text Summarization Tools",
+  description: "Five focused AI-powered text tools for summarization, extraction, and compression. Free, no signup required.",
+  url: "https://sumkit.app",
+  siteName: "SumKit",
+  images: [
+    {
+      url: "/og-image.png",
+      width: 1200,
+      height: 630,
+      alt: "SumKit - Five tools, one simple suite"
+    }
+  ],
+  type: "website"
+},
+twitter: {
+  card: "summary_large_image",
+  title: "SumKit - AI Text Summarization Tools",
+  description: "Five focused AI-powered text tools for summarization, extraction, and compression. Free, no signup required.",
+  images: ["/og-image.png"]
+}
   robots: {
     index: true,
     follow: true,
