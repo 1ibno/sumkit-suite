@@ -66,10 +66,10 @@ export default function Contact() {
         {/* Hero */}
         <section className="mt-10">
           <h1 className="text-h1 text-[rgba(255,255,255,0.96)]">
-            Get in touch.
+            Hit me up!
           </h1>
           <p className="mt-3 max-w-[520px] text-body text-text-secondary">
-            Questions, feedback, or just want to say, "Hi?" We'd dig hearing from you.
+            I'm, Carlos, a solo founder building these tools. Got questions, feedback, issues, or just wanna chat about SumKit? I'd dig hearing from you.
           </p>
         </section>
 
@@ -78,7 +78,7 @@ export default function Contact() {
           {submitted ? (
             <div className="py-8 text-center">
               <p className="text-body text-text-primary">
-                Thanks for reaching out! We'll hit you back, soon.
+                Thanks for reachin' out! I'll read your message & hit you back.
               </p>
               <a href="/" className="mt-4 inline-block text-sm text-accent hover:underline">
                 ← Back to SumKit
