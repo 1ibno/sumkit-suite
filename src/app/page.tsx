@@ -22,7 +22,7 @@ export default function Home() {
             AI-powered text tools. Simple. Fast. Free.
           </h1>
           <p className="mt-3 mx-auto max-w-[560px] text-body text-text-secondary">
-            Five focused tools that each do one thing perfectly. No sign-ups, no friction. Just paste your text and get results.
+            Five focused tools that each does one thing perfectly. No sign-ups, no friction. Just paste your text and get results.
           </p>
           {/* Privacy */}
           <p className="mt-4 text-sm text-text-secondary">
